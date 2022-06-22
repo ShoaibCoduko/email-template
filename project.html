@@ -1,0 +1,451 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>formin bootstraps</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <style>
+        button {
+            background-color: rgba(51, 51, 51, 255);
+            color: aliceblue;
+            padding: 20px;
+            border-radius: 50%;
+            display: inline;
+            font-size: 2.5rem !important;
+            border: 0px;
+        }
+
+        body,
+        html {
+            background: #ECEDEF;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            margin: auto;
+            transform: translate(-50%, -50%);
+            background: #000000;
+            border-radius: 5px;
+            padding-bottom: 20px;
+            width: 450px;
+        }
+
+        .display {
+            width: 100%;
+            height: 50px;
+            padding: 40px 0;
+            background: #000000;
+            border-top-left-radius: 14px;
+            border-top-right-radius: 14px;
+        }
+
+        .buttons {
+            padding: 20px 20px 0 20px;
+            margin: auto;
+
+        }
+
+        .row {
+            width: auto;
+            float: left;
+            text-align: center;
+        }
+
+        input[type=button] {
+            width: 80px;
+            height: 80px;
+            float: left;
+            padding: 0;
+            margin: 8px;
+            box-sizing: border-box;
+            background: #333333;
+            border: none;
+            font-size: 30px;
+            line-height: 30px;
+            border-radius: 50%;
+            color: #fefefe;
+            cursor: pointer;
+        }
+
+
+        input[type=text] {
+            width: 380px;
+            height: 70px;
+            float: left;
+            padding: 0;
+            box-sizing: border-box;
+            border: none;
+            background: none;
+            color: #ffffff;
+            text-align: right;
+            font-size: 5rem;
+            line-height: 70px;
+            margin: 0 25px;
+        }
+
+        input::placeholder {
+            color: #fefefe;
+
+            /* Firefox */
+        }
+
+        .bg-text_color {
+            background: #ff9f0a !important;
+            color: #fffeeb !important;
+        }
+
+        .bg-text_col {
+            background: #777777 !important;
+            color: #020202 !important;
+        }
+
+        .colspan_2 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 21%;
+            height: 86%;
+            -webkit-box-flex: 0;
+            -ms-flex: 0 0 21%;
+            flex: 0 0 21%;
+            max-width: 21%;
+            border-radius: 50%;
+            transition: background-color .8s ease-out;
+        }
+    </style>
+
+</head>
+
+<body>
+   
+    <h1>
+        <script>
+            document.body.style.backgroundColor = "lightblue";
+        document.body.style.width = "75%";
+        document.body.style.margin = "auto";
+        document.body.style.textAlign = "center";
+            function valueb(){
+            for(var num =0; num<=120; num++){
+                document.write("<hr>");
+                document.write(num);
+                document.write("<hr>");
+               
+                    }
+       
+        }
+        valueb();
+        </script>
+    </h1>
+
+    <!-- <table class="bg-dark"> 
+        <tr>
+            <td rowspan="1" colspan="4" class="form">
+                <input type="text" placeholder="0" class="bg-dark text-light" name="disresult" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="button" class="bg-danger text-light rounded-circle" id="button-ac" value="AC" onClick="number_ac()">
+            </td>
+            <td>
+                <input type="button" class="bg-text_col" id="button-addsub" value="+/-" onClick="number_8()">
+            </td>
+            <td>
+                <input type="button" class="bg-text_col" id="button-madulas" value="%" onClick="madulas()">
+            </td>
+            <td>
+                <input type="button" class="bg-text_color" id="divb" name="/" value="÷" onClick="divdNumbers()">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="button" id="button-7" value="7" onClick="number_7()">
+            </td>
+            <td>
+                <input type="button" id="button-8" value="8" onClick="number_8()">
+            </td>
+            <td>
+                <input type="button" id="button-9" value="9" onClick="number_9()">
+            </td>
+            <td>
+                <input type="button" class="bg-text_color" id="plus" value="+" onClick="numberPlus()">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="button" id="button-4" value="4" onClick="number_4()">
+            </td>
+            <td>
+                <input type="button" id="button-5" value="5" onClick="number_5()">
+            </td>
+            <td>
+                <input type="button" id="button-6" value="6" onClick="number_6()">
+            </td>
+            <td>
+                <input type="button" class="bg-text_color" id="sub_line" value="- " onClick="sub()">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="button" id="button-1" value="1" onClick="number_1()">
+            </td>
+            <td>
+                <input type="button" id="button-2" value="2" onClick="number_2()">
+            </td>
+            <td>
+                <input type="button" id="button-3" value="3" onClick="number_3()">
+            </td>
+            <td>
+                <input type="button" class="bg-text_color" id="multiplay" value="*" onClick="sinmultypl()">
+            </td>
+        </tr>
+        <tr>
+            <td rowspan="1" colspan="2">
+                <input type="button" class="style_0" id="button-0" value="0" onClick="number_0()">
+            </td>
+            <td>
+                <input type="button" id="potb" value="." onClick="fulNumbers()">
+            </td>
+            <td>
+                <input type="button" class="bg-text_color" value="=" onClick="disresult.value=eval(disresult.value)">
+            </td>
+        </tr>
+    </table>
+   -->
+
+    <!-- icon link in  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/js/all.min.js"
+        integrity="sha512-yFjZbTYRCJodnuyGlsKamNE/LlEaEAxSUDe5+u61mV8zzqJVFOH7TnULE2/PP/l5vKWpUNnF4VGVkXh3MjgLsg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+        integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+        integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+    <script>
+        let checked="lorem this page check by value";
+        document.body.style.backgroundColor = "pink";
+        document.body.style.width = "75%";
+           
+        function valueb(){
+            for(var num =0; num<=120; num++){
+                document.write("<hr>");
+                document.write(num);
+                document.write("<hr>");
+               
+                    }
+       
+        }
+        function value(){
+            alert(checked);
+        }
+        value();
+       
+        valueb();
+        // for (let a =1; a<=10;
+        //  a++){
+        //     if(a !== 2 && a % 2 == 0){
+        //         continue;
+        //     }
+        //     document.write(a);
+        //     document.write("<br>");
+        // }
+        // var conter =1;
+        // while(conter<=10){
+        //     document.write("hello");
+        //     document.write("<hr>");
+        //     conter++;
+        // }
+        // let conterdowhileloop = 0;
+        // do{
+        //     document.write('jollo');
+        //     document.write("<br>");
+        //     conterdowhileloop++;
+        // }
+        // while( conterdowhileloop<100);
+        // //typeof 
+        // boolean
+        //number
+        //string
+
+        // let value = 0 //78192 //"lorem in the veryimpoan inpoent this think for value";
+        // document.write(value);
+        // document.write("<hr>");
+        // document.write(typeof value);
+        // document.write("<hr>");
+        // let newValuechangs = Boolean(value);
+        // document.write(newValuechangs);
+        // document.write("<hr>");
+        // let newvaluestring = String(newValuechangs);
+        // document.write(newvaluestring);
+        // document.write("<hr>");
+        // document.write(typeof newvaluestring);
+        // function myFunction() {
+        //     document.getElementById("h1_1");
+        //     let stylebg = document.getElementById("h1_1");
+        //     stylebg.style.color = "white";
+        //     stylebg.style.background = "lightblue";
+        //     stylebg.style.padding = "40px";
+        //     stylebg.style.lineHeight = "3";
+        //     document.write("<br>");
+        // }document.write("<br>");
+  
+        // let vot =12;
+        // if(vot === 1){
+        //     document.write("your good input number typeof   1");
+           
+        // }
+        // else if(vot === "11111"){
+        //     document.write("your good input string typeof   11111");
+        // }
+        // else if(vot === true){
+        //     document.write("your good input boolean typeof   true");
+        // }
+        // else if(vot === "true"){
+        //     document.write("your good input string typeof  true");
+        // }
+        // else if(vot <=10){
+        //     document.write("your good input number of less then equal to 10");
+        // }
+        // else if(vot == 12){
+        //     document.write("your good inputrun your for loop in 12 number end");
+        //     let num = 123456789
+        //     for(var i=0; i<12; i++){
+        //         document.write(num.length);
+        //         document.write("<hr>");
+        //     }
+            
+        // }
+        // else if(vot == 122){
+        //     document.write("your good inputrun your for loop in 122 number end");
+        //     for(const i=0; i<122; i++){
+        //         document.write(i);
+        //         document.write("<hr>");
+        //     }
+            
+        // }
+        // else{
+        //     document.write("your wrong input type");
+            
+        // }
+    </script>
+
+
+    <!-- <script>
+            function number_ac() {
+    
+                window.location.reload();
+    
+    
+            }
+            function sinmultypl() {
+                result = document.getElementById("multiplay").value
+                form.disresult.value = form.disresult.value + result;
+            }
+            // <input type="button" class="bg-text_color" id="divb" value="÷" onClick="calcNumbers(divb.value) ">
+            function madulas() {
+                result = document.getElementById("button-madulas").value;
+                form.disresult.value = form.disresult.value + result;
+            }
+            function divdNumbers() {
+                result = document.getElementById("divb").name;
+                form.disresult.value = form.disresult.value + result;
+            }
+            function sub() {
+                result = document.getElementById("sub_line").value;
+                form.disresult.value = form.disresult.value + result;
+            }
+            function calcNumbers() {
+                result = document.getElementById("b3").value;
+                form.disresult.value = form.disresult.value + result;
+    
+            }
+    
+            function number_1() {
+                result = document.getElementById("button-1").value;
+                form.disresult.value = form.disresult.value + result;
+    
+            }
+    
+            function number_2() {
+                result = document.getElementById("button-2").value;
+                form.disresult.value = form.disresult.value + result;
+    
+            }
+    
+            function number_3() {
+                result = document.getElementById("button-3").value;
+                form.disresult.value = form.disresult.value + result;
+    
+            }
+    
+            function number_4() {
+                result = document.getElementById("button-4").value;
+                form.disresult.value = form.disresult.value + result;
+    
+            }
+    
+            function number_5() {
+                result = document.getElementById("button-5").value;
+                form.disresult.value = form.disresult.value + result;
+    
+            }
+    
+            function number_6() {
+                result = document.getElementById("button-6").value;
+                form.disresult.value = form.disresult.value + result;
+    
+            }
+    
+    
+            function number_7() {
+                result = document.getElementById("button-7").value
+                form.disresult.value = form.disresult.value + result;
+    
+            }
+    
+            function number_8() {
+                result = document.getElementById("button-8").value
+                form.disresult.value = form.disresult.value + result;
+    
+            }
+    
+            function number_9() {
+                result = document.getElementById("button-9").value
+                form.disresult.value = form.disresult.value + result;
+    
+            }
+            function fulNumbers() {
+                result = document.getElementById("potb").value
+                form.disresult.value = form.disresult.value + result;
+    
+            }
+    
+    
+            function number_0() {
+                result = document.getElementById("button-0").value;
+                form.disresult.value = form.disresult.value + result;
+    
+            }
+    
+            function numberPlus() {
+                result = document.getElementById("plus").value
+                form.disresult.value = form.disresult.value + result;
+    
+            }
+        </script> -->
+
+</body>
+
+</html>
