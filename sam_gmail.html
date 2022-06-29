@@ -7,56 +7,77 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>gmail</title>
     <style>
-        @media only screen and (min-width: 800px) {
-            .fotertext p {
-                margin: auto;
-                width: 50%;
-            }
-            .header_section {
-                background-color: rgb(39, 136, 216);
-                margin: auto;
-                width: 50%;
-            }
-            #para_1 {
-                width: 90%;
-                margin: auto;
+        @media screen and (max-width:1000px) {
+            .soction-icon {
+                text-align: -webkit-center;
             }
         }
         
-        @media only screen and (min-width: 600px) {
-            .fotertext p {
-                margin: auto;
-                width: 25%;
-            }
-            .header_section {
-                background-color: aliceblue;
-                margin: auto;
-                width: 95%;
+        @media only screen and (min-width: 2200px) {
+            .soction-icon {
+                float: right;
             }
         }
         
-        @media only screen and (min-width: 400px) {
-            .soction-icon a {
+        @media only screen and (max-width: 2200px) {
+            * {
+                padding: 0%;
+                margin: 0%;
+                border: 0%;
+            }
+            body {
+                background-color: rgb(184, 183, 187);
+                width: auto;
+            }
+            .header_section {
                 margin: auto;
-                width: 25%;
+                width: 40%;
+                background-color: #ffff;
+                padding-left: 25px;
+                padding-right: 25px;
+            }
+        }
+        
+        @media only screen and (max-width: 600px) {
+            * {
+                padding: 0%;
+                margin: 0%;
+                border: 0%;
+            }
+            body {
+                background-color: rgb(14, 51, 5);
+                width: auto;
+            }
+            .header_section {
+                margin: auto;
+                width: auto;
+                background-color: rgb(105, 41, 38);
+                padding-left: 25px;
+                padding-right: 25px;
+            }
+            .soction-icon {
+                float: right;
+            }
+        }
+        
+        @media screen and (max-width:450px)and (min-width:600px) {
+            .soction-icon {
+                text-align: -webkit-center;
             }
         }
         
         #para_1 p {
-            font-size: 18px;
-            color: gray;
-            font-weight: 300;
+            font-size: 20px;
+            color: grey;
+            font-weight: 400;
+            line-height: 30px;
+            line-break: auto;
         }
         
-        * {
-            margin: 0%;
-            padding: 0%;
-            margin: auto;
-            background-color: aliceblue;
-        }
-        
-        .header_section {
-            background-color: rgb(39, 136, 216);
+        #heading h1 {
+            font-size: 30px;
+            color: rgb(23, 26, 26);
+            font-weight: bold;
         }
     </style>
 </head>
@@ -71,7 +92,7 @@
                 </a>
             </div>
 
-            <div class="soction-icon" style="float:right ;">
+            <div class="soction-icon">
                 <div id="logo" style="display:inline-block; margin: 5px;">
                     <a href="#"><img src="https://cdn.vectorstock.com/i/1000x1000/04/43/twitter-logo-icon-vector-27990443.webp" width="35" height="35" alt=""></a>
                 </div>
@@ -95,11 +116,9 @@
                 <h1>Lorem ipsum dolor sit amet.</h1>
             </div>
             <div id="para_1">
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius dicta id quisquam at suscipit omnis officiis, explicabo rem ea assumenda quam reprehenderit libero laudantium animi commodi! Nam saepe doloribus nobis?</p>
-
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius dicta id quisquam at suscipit omnis officiis, explicabo rem ea assumenda quam reprehenderit libero laudantium animi commodi! Nam saepe doloribus nobis?</p>
-
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius dicta id quisquam at suscipit omnis officiis, explicabo rem ea assumenda quam reprehenderit libero laudantium animi commodi! Nam saepe doloribus nobis?</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius dicta id quisquam at suscipit omnis officiis, explicabo rem ea assumenda quam reprehenderit libero laudantium animi commodi! Nam saepe doloribus nobis? Lorem, ipsum dolor sit
+                    amet consectetur adipisicing elit. Eius dicta id quisquam at suscipit omnis officiis, explicabo rem ea assumenda quam reprehenderit libero laudantium animi commodi! Nam saepe doloribus nobis orem, ipsum dolor sit amet consectetur adipisicing
+                    elit. Eius dicta id quisquam at suscipit omnis officiis, explicabo rem ea assumenda quam reprehenderit libero laudantium animi commodi! Nam saepe doloribus nobis?</p>
 
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius dicta id quisquam at suscipit omnis officiis, explicabo rem ea assumenda quam reprehenderit libero laudantium animi commodi! Nam Lorem, ipsum dolor sit amet consectetur adipisicing
                     elit. Eius dicta id quisquam at suscipit omnis officiis, explicabo rem ea assumenda quam reprehenderit libero laudantium animi commodi! Nam saepe doloribus nobis?</p>
@@ -125,5 +144,7 @@
     </div>
 
 </body>
+
+</html>
 
 </html>
