@@ -17,11 +17,11 @@ try {
     $mail->SMTPAuth = true; // authentication enabled
     $mail->SMTPSecure = 'tls'; // secure transfer enabled REQUIRED for Gmail
     $mail->Host = "smtp.mailtrap.io";
-    $mail->Port = 465; // or 587
+    $mail->Port = 2525; // or 587
     $mail->IsHTML(true);
-    $mail->Username = "94102a769391a2";
-    $mail->Password = "1147523ffe8165";
-    $mail->SetFrom("example@gmail.com");
+    $mail->Username = "a4d93d43928c51";
+    $mail->Password = "1a06caedefb06c";
+    $mail->SetFrom("shoaibahmad6342@gmail.com");
     $mail->Subject = "Test";
     $mail->Body = '<!DOCTYPE html>
     <html lang="en">
@@ -32,112 +32,196 @@ try {
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Document</title>
         <style>
-            td {
-                padding: 0%;
+            * {
                 margin: 0%;
+                padding: 0%;
             }
             
-            p {
-                font-size: 1.5em;
-                margin: 0%;
-                padding: 5px;
+            @media screen and (max-width: 450px) {
+                table {
+                    width: auto;
+                }
+            }
+            
+            @media screen and (max-width: 800px) {
+                table {
+                    width: auto;
+                }
             }
         </style>
     </head>
     
-    <body style="background-color:rgb(171, 171, 171) ;">
-        <table style="width:80% ; margin:auto;">
-            <tbody>
+    <body>
+        <table border="0" style="padding-bottom:20px ;" bgcolor="#eeeee4" align=" center " cellpadding="0 " cellspacing="0 " width="100% ">
+            <tr>
+                <td style="text-align:center ; margin:auto; ">
+                    <!-- header section -->
+                    <table border="0 " style="margin:auto; margin-top: 25px;margin-bottom: 25px; " cellpadding="0 " cellspacing="0 " width="40% ">
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <p style=" font-size:25px;padding: 0px; margin: 0%; font-weight: bold; ">Loremipsum itamet.</p>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <!-- card body section -->
+                    <table border="0 " style="margin:auto; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); padding:25px; " cellpadding="0 " cellspacing="0 " width="40% " bgcolor="white ">
+                        <tbody>
+                            <tr>
     
-                <tr>
-                    <td>
-                        <table style="margin:auto;">
-                            <tbody>
+                                <td>
+                                    <table cellpadding="0 " cellspacing="0 ">
+                                        <tbody>
+                                            <tr>
+                                                <td>
+                                                    <p style="margin:0% ; padding:0%; font-weight: bolder; font-size: 25px ">
+                                                        Hello!
+                                                    </p>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <table cellpadding="0 " cellspacing="0 ">
+                                        <tbody>
+                                            <tr>
+                                                <td>
+                                                    <p style="margin:0% ;color: grey; padding:0%; text-align: left; font-weight: normal; font-size: 20px; ">
+                                                        ipsum dolor sit g elit. Odit, nihil exercitationem. Corrupti consequuntur totam dolores error impedit consequatur assumenda tenetur?
+                                                    </p>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                            <!-- button section started -->
+                            <tr>
+                                <td>
+                                    <table cellpadding="0 " border="0" align="center" cellspacing="0 ">
+                                        <tbody>
+                                            <tr>
+                                                <td style="width:10%; margin:auto;">
+                                                    <button style=" background-color: #2d3748; color: white; border-radius: 7px;padding: 8px;font-weight: bold;font-size: large; margin: 25px; border:0%;  ">Go to our site</button>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <table cellpadding="0 " cellspacing="0 ">
+                                        <tbody>
+                                            <tr>
+                                                <td>
+                                                    <p style="margin:0% ;color: grey; padding:0%; text-align: left; font-weight: normal; font-size: 20px; ">
+                                                        consequatur assumenda te
+                                                    </p>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <table cellpadding="0 " cellspacing="0 ">
+                                        <tbody>
+                                            <tr>
+                                                <td style="padding-top:20px; padding-bottom:20px;">
+                                                    <p style="margin:0% ;color: grey; padding:0%; text-align: left; font-weight: normal; font-size: 20px; ">
+                                                        menda tenetur?
+                                                    </p>
+                                                    <p style="margin:0% ;color: grey; padding:0%; text-align: left; font-weight: normal; font-size: 20px; ">
+                                                        menda tenetur?
+                                                    </p>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <table cellpadding="0 " cellspacing="0 " width="100% ">
+                                        <tbody>
+                                            <tr>
+                                                <td>
+                                                    <hr>
+                                                    <br>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <table cellpadding="0 " cellspacing=" " width="100% " class="bodyfooter ">
+                                        <tbody>
     
-                                <tr>
-                                    <td>
-                                        <h2>Lorem ipsum dolor sit.</h2>
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </td>
-                </tr>
-                <tr>
-                    <td style="margin:0%;">
-                        <table style="width:90% ; margin:auto; background-color: rgb(250, 250, 240); padding: 20px;">
-                            <tbody>
-                                <tr>
-                                    <td>
-                                        <h1>Hello</h1>
+                                            <tr>
+                                                <td>
     
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing eLorem ipsum dolor sit amet consectetur adipisicing elit. Illo hic ipsa ullam? Sed in laudantium rem obcaecati veritatis nisi a.</p>
+                                                    <p style="font-size:large; text-align: left; font-weight:normal; color: grey; padding: 0%; margin: 0%; ">
+                                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae deserunt facere blanditiis laborum sapiente unde! a
+                                                        <a href="# ">https://pinetools.com</a>
+                                                    </p>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table cellpadding="0 " cellspacing="0 " width="30% " style=" margin: auto;margin-top: 20px;font-size: 1.3em; ">
+                        <tbody>
+                            <tr>
     
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td style="text-align:center; padding-top: 25px;">
-                                        <button style=" background-color:black; padding:8px; font-size:1.5em;  font-weight: bold; border-radius:9px; color:white ">Go to the site</button>
+                                <td>
     
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <p>Thank you for using our application</p>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <p>Loreipsum.</p>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <p>lorenloremqwweic</p>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td style="text-align:center;">
-                                        <hr>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et odio voluptates, asperiores facilis vitae fugiat mollitia dolor, eveniet quas ad repudiandae iure
-                                            <a href="#">explicabo commodi doloremque.</a>
-                                        </p>
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <table style="margin:auto; margin-top: 20px;">
-                            <tbody>
+                                    <table cellpadding="0 " cellspacing="0 ">
+                                        <tbody>
+                                            <tr>
     
-                                <tr>
-                                    <td>
-                                        <a herf="#" style=" text-align:center; font-size: medium; text-emphasis: none; color: rgb(114, 114, 197); ">Lorem ipsum dolor sit.Lorem ipsum dolor sit.
-                                            </a>
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </td>
-                </tr>
-            </tbody>
+                                                <td>
+                                                    <table cellpadding="0 " cellspacing="0 ">
+                                                        <tbody>
+    
+                                                            <tr>
+                                                                <td>
+    
+                                                                    <p style="text-align:center; color: rgb(156, 118, 118); ">2022 12 32 loremsm sdkimage.pngimage.png</p>
+                                                                </td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+    
+                                </td>
+                            </tr>
+    
+                        </tbody>
+                    </table>
+    
+    
+    
+                    <!-- copy right section -->
+                </td>
+            </tr>
         </table>
-    
     </body>
     
-    </html>
-    <!-- </html>cellpadding="4" cellspacing="5"> -->';
+    </html>';
     $mail->AddAddress("email@gmail.com");
 
     if (!$mail->Send()) {
