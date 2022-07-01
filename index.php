@@ -19,6 +19,7 @@ try {
     $mail->Host = "smtp.mailtrap.io";
     $mail->Port = 2525; // or 587
     $mail->IsHTML(true);
+<<<<<<< HEAD
     $mail->Username = "94b43a13045ef2";
     $mail->Password = "ad15f2b61d68b1";
     $mail->SetFrom("shoaibahmad6342@gmail.com");
@@ -201,6 +202,14 @@ try {
     </html>
     
     </html>';
+=======
+    $mail->Username = "a4d93d43928c51";
+    $mail->Password = "1a06caedefb06c";
+    $mail->SetFrom("shoaibahmad6342@gmail.com");
+    $mail->Subject = "Test";
+    $content = file_get_contents('gmailtemplate/email-responsers/email_template.html');
+    $mail->Body = $content;
+>>>>>>> 320d544f039f307d1a74bc590908f00373ca451a
     $mail->AddAddress("email@gmail.com");
 
     if (!$mail->Send()) {
