@@ -5,319 +5,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>First page web</title>
-    <link rel="stylesheet" href="style.css">
-    <style>
-        * {
-            margin: 0%;
-            padding: 0%;
-        }
-        
-        .main {
-            font-family: Open Sans, sans-serif!important;
-            background-image: url(image/back_ground.jpeg);
-        }
-        
-        .container {
-            margin: 20px 195.5px;
-            padding: 20px 0px 26px;
-            max-width: 885px;
-            margin: auto;
-        }
-        
-        .container .headh1 h1 {
-            font-size: 30px;
-            margin: 30px 15px 15px;
-            line-height: 41px;
-            font-weight: 400;
-            text-align: center;
-            margin-bottom: 50px;
-        }
-        
-        .paragraph_text p {
-            font-size: 16px;
-            line-height: 41px;
-            text-align: center;
-            font-weight: 400;
-            padding: 20px auto;
-        }
-        
-        .paragraph_text .para_color {
-            font-style: italic;
-            font-weight: bold;
-            color: #4C9459;
-            padding-top: 8px;
-            padding-bottom: 8px
-        }
-        
-        .container_1 {
-            margin: 20px auto;
-            max-width: 1012px;
-            padding-top: 30px;
-        }
-        
-        .container_1 .headh1 h1 {
-            font-size: 30px;
-            margin: 30px 15px 15px;
-            line-height: 41px;
-            font-weight: 400;
-            text-align: center;
-            margin-bottom: 50px;
-        }
-        
-        .row {
-            display: flex;
-            text-align: left;
-        }
-        /* .col_2 {
-            width: 20%;
-        }
-        
-        */
-        
-        .col_1 {
-            padding-left: 50px;
-            padding-right: 30px;
-        }
-        
-        .col_1 .font_size {
-            font-size: 20px;
-            line-height: 41px;
-            text-align: left;
-            font-weight: 400;
-        }
-        
-        .col_1 .para_col {
-            font-size: 16px;
-            line-height: 1.6;
-            text-align: left;
-            font-weight: 400;
-        }
-        /* container number2 */
-        
-        .container_2 {
-            margin: 20px auto;
-            max-width: 1012px;
-            padding-top: 30px;
-        }
-        
-        .colm_1 {
-            padding-left: 15px;
-            padding-right: 50px;
-        }
-        
-        .colm_1 .para_col {
-            font-size: 16px;
-            line-height: 1.6;
-            text-align: left;
-            font-weight: 400;
-        }
-        
-        .colm_1 h3 {
-            font-size: 24px;
-            font-weight: normal;
-            padding-top: 40px;
-            margin-bottom: -5px;
-        }
-        /* container ni=umber 1 chanh ge mar gin and padd in d */
-        
-        .margtop {
-            padding: 100px 0px 0px;
-            margin: auto;
-        }
-        
-        .margtop_2 {
-            margin-top: 23px;
-            padding-top: 20px;
-            margin-bottom: 45px;
-        }
-        
-        .colm_1 .font_size {
-            font-size: 20px;
-            line-height: 41px;
-            text-align: left;
-            font-weight: 400;
-        }
-        
-        .container_color {
-            background-color: #FFFBEFE6;
-        }
-        /* paragraphheading */
-        
-        .paraheading {
-            font-size: 30px;
-            margin: 30px 15px 15px;
-            line-height: 41px;
-            font-weight: 400;
-            text-align: center;
-            font-family: 'Open Sans', sans-serif;
-        }
-        
-        .paraheading p {
-            font-size: 20px;
-        }
-        
-        .tag_a {
-            text-align: center;
-        }
-        
-        .tag_a a {
-            text-decoration: none;
-            color: #2971fe;
-            font-size: 16px;
-        }
-        /* working on container table project now */
-        
-        .con_table {
-            padding: 150px 0px;
-            background-image: url(image/background2.jpeg);
-            background-repeat: no-repeat;
-            background-attachment: fixed;
-            background-position: center;
-            background-size: cover;
-        }
-        
-        .martop_table {
-            padding: 10px 0px 0px 0px;
-            margin: auto;
-        }
-        
-        .container .paragraph_abletop {
-            font-size: 20px;
-            line-height: 41px;
-            text-align: center;
-            font-weight: 400;
-            padding: 20px auto;
-        }
-        
-        .table_div {
-            width: 1025px;
-            margin: auto;
-        }
-        
-        .table_div table {
-            width: 100%;
-        }
-        
-        table,
-        tr,
-        td {
-            border: 1px solid grey;
-            border-collapse: collapse;
-            padding: 10px 11px;
-        }
-        /* tablestylecolorstarted */
-        
-        .blue {
-            color: #6083c4;
-            font-weight: bold;
-        }
-        
-        .red {
-            color: #FB3F4B;
-            font-weight: bold;
-        }
-        
-        .green {
-            color: #499557;
-            font-weight: bold;
-        }
-        
-        .bgblue {
-            background-color: #EDFAFF;
-        }
-        
-        .bgred {
-            background-color: #ffeded;
-        }
-        
-        .bggreen {
-            background-color: #ebffe3;
-        }
-        /* question writr progrem */
-        
-        .ques_div {
-            margin: 20px 195.5px;
-            padding: 20px 0px 26px;
-            max-width: 885px;
-            margin: auto;
-            text-align: left;
-        }
-        
-        .text_que {
-            padding-top: 60px;
-        }
-        
-        .text_que p {
-            line-height: 41px;
-        }
-        
-        .text_que .faq {
-            font-size: 20px;
-        }
-        
-        .ul_que {
-            padding: 40px 0px;
-        }
-        
-        .ul_que ul {
-            padding: 10px 0px;
-        }
-        
-        .ul_que ul li a {
-            text-decoration: none;
-            color: #252525;
-        }
-        
-        .ul_que ul li {
-            border-bottom: .3px solid rgb(186, 185, 185);
-            list-style-type: none;
-            padding: 25px 5px;
-        }
-        
-        .ul_que ul li:hover {
-            background-color: rgb(254, 254, 254);
-        }
-        
-        footer {
-            padding: 10px 150px 10px 150px;
-            background-color: rgba(187, 190, 191, 0.149);
-        }
-        
-        footer ul {
-            display: inline-table;
-            padding: 0px 52px 0px 0px;
-        }
-        
-        footer ul li {
-            list-style-type: none;
-            padding: 5px 5px;
-        }
-        
-        footer ul li a {
-            text-decoration: none;
-            color: #252525;
-        }
-        
-        footer .icon-section {
-            display: inline-flex;
-            justify-content: start;
-            padding: 0px 0px 0px 350px;
-        }
-        
-        .icon-section {
-            margin-top: 40px;
-        }
-    </style>
+    <title>Document</title>
+    <!-- coustomlink css style sheet -->
+    <link rel="stylesheet" href="style_custom.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 </head>
 
 <body>
-    <div class="main">
-        <!-- ckeditor page work -->
-        <div style="text-align:center ; width: 70%; margin: auto;">
-            <textarea name="content" id="" cols="15" rows="50"></textarea></div>
-        <div class="container">
-            <div class="headh1">
+
+
+    <div class="main container-fluid">
+        <div class="bg-light py-5">
+            <div class="text-center w-75 m-auto ">
+                <textarea name="content" id="" cols="15" rows="50"></textarea>
+            </div>
+        </div>
+        <div class="container py-5">
+            <div class="headh1 text-center">
                 <h1>Grammar Checker</h1>
             </div>
             <div class="paragraph_text">
@@ -328,32 +32,31 @@
             </div>
 
         </div>
-        <div class="container_1">
+        <div class="container px-5  m-auto">
 
             <div class="headh1">
                 <h1>One Grammar Checker to Rule Them All</h1>
             </div>
             <div class="row">
-                <div class="col_1">
+                <div class="col-lg-9 col-md-8 text-sm-center col-sm-12">
                     <p class="font_size">Simplify Your Writing Workflow</p>
                     <p class="para_col">Sick of having so many tabs open to access different writing and research tools? We get it. Cut down on common writing roadblocks by minimizing the distractions that come with a sea of open tabs. QuillBot has cutting-edge AI-based
                         writing tools for paraphrasing, summarizing, and now grammar checking. Create a smooth, simple workflow on our sleek, user-friendly interfaces. Save yourself time, energy, and frustration with our arsenal of helpful products.</p>
                 </div>
-                <div class="col_2">
-                    <img src="image/workfow.jpeg" width="255" height="258" alt=" ">
+                <div class="col-lg-3 col-md-4 text-sm-center col-sm-12">
+                    <img src="image/workfow.jpeg" width="255" class="img-fluid" height="258" alt=" ">
                 </div>
             </div>
 
 
         </div>
-        <div class="container_2">
+        <div class="container px-5 m-auto">
 
-            <div class="row">
-
-                <div class="colm_2">
-                    <img src="image/workflow2nd.jpeg" width="255" height="258" alt=" ">
+            <div class="row ms-4">
+                <div class="col-lg-3 col-md-4 text-sm-center col-sm-12">
+                    <img src="image/workflow2nd.jpeg" width="255" class="img-fluid" height="258" alt=" ">
                 </div>
-                <div class="colm_1">
+                <div class="col-lg-9 col-md-8  col-sm-12">
                     <h3>Check Punctuation</h3>
                     <p class="para_col">
 
@@ -364,29 +67,29 @@
 
 
         </div>
-        <div class="container_1 margtop">
+        <div class="container px-5 m-auto margtop">
 
             <div class="row">
-                <div class="col_1">
+                <div class="col-lg-9 col-md-8 col-ms-12 pt-4">
                     <p class="font_size">Spell Check</p>
                     <p class="para_col">Sick of having so many tabs open to access different writing and research tools? We get it. Cut down on common writing roadblocks by minimizing the distractions that come with a sea of open tabs. QuillBot has cutting-edge AI-based
                         writing tools for paraphrasing, summarizing, and now grammar checking. Create a smooth, simple workflow on our sleek, user-friendly interfaces. Save yourself time, energy, and frustration with our arsenal of helpful products.</p>
                 </div>
-                <div class="col_2">
-                    <img src="image/workflow3nd.jpeg" width="255" height="258" alt=" ">
+                <div class="col-lg-3 col-md-4 col-sm-12 text-sm-center">
+                    <img src="image/workflow3nd.jpeg" width="255" class="img-fluid" height="258" alt=" ">
                 </div>
             </div>
 
 
         </div>
-        <div class="container_2 margtop_2">
+        <div class="container px-5 m-auto margtop_2">
 
-            <div class="row">
+            <div class="row ms-4">
 
-                <div class="colm_2">
-                    <img src="image/workflow4nd.jpeg" width="255" height="258" alt=" ">
+                <div class="col-lg-3 col-md-4 text-lg-center col-sm-12">
+                    <img src="image/workflow4nd.jpeg" width="255" class="img-fluid" height="258" alt=" ">
                 </div>
-                <div class="colm_1">
+                <div class="col-lg-9 col-md-8 col-sm-12">
                     <p class="font_size">Check Punctuation</p>
                     <p class="para_col">
                         What’s a comma splice? When is it appropriate to use a semicolon? Does a comma belong there? Even those who are great with spelling and grammar can have a tough time with punctuation rules, so it’s a good thing QuillBot’s Grammar Checker doubles as a
@@ -397,29 +100,29 @@
 
 
         </div>
-        <div class="container_1 margtop">
+        <div class="container px-5 m-auto margtop">
 
             <div class="row">
-                <div class="col_1">
+                <div class="col-lg-9 col-md-8 col-ms-12">
                     <p class="font_size">Correct A Multitude of Grammatical Errors with Just One Click</p>
                     <p class="para_col">We care that your workflow is streamlined, which is why we rolled 3 tools into 1 with our cutting-edge Grammar Checker. It functions as a sentence checker, a spell check, and a punctuation checker. QuillBot will grammar check sentences
                         from the beginning to the end of any project you’re working on with one simple click, making sure that your work is polished and error-free.</p>
                 </div>
-                <div class="col_2">
-                    <img src="image/workflow4nd.jpeg" width="255" height="258" alt=" ">
+                <div class="col-lg-3 col-md-4 text-lg-center col-ms-12">
+                    <img src="image/workflow4nd.jpeg" width="255" class="img-fluid" height=" 258 " alt=" ">
                 </div>
             </div>
 
 
         </div>
-        <div class="container_2 margtop_2">
+        <div class="container px-5 m-auto margtop_2">
 
-            <div class="row">
+            <div class="row ms-4">
 
-                <div class="colm_2">
-                    <img src="image/women_image.jpeg" width="255" height="258" alt=" ">
+                <div class="col-lg-3 col-md-4 col-ms-12 text-lg-center">
+                    <img src="image/women_image.jpeg" width="255" class="img-fluid" height="258" alt=" ">
                 </div>
-                <div class="colm_1">
+                <div class="col-lg-9 col-md-8 col-ms-12">
                     <p class="font_size">Turn Corrections into a Learning Experience</p>
                     <p class="para_col">
                         Every writer’s background is different. Some of us took great writing courses, while others learned through trial and error. When the grammar checker flags mistakes in your writing, it visually brings these issues to your attention, helping you learn
@@ -436,13 +139,11 @@
 
 
         </div>
-        <div class="container_color">
-            <img src="image/top.jpeg" width="100%" alt=" ">
-            <div class="container ">
+        <div class="  container_color">
+            <img src="image/top.jpeg" width="100%" class="img-fluid" alt=" ">
+            <div class="container px-5 m-auto ">
                 <div class="paraheading ">
-                    <p>
-                        You asked. We delivered
-                    </p>
+                    <p> You asked. We delivered</p>
                 </div>
                 <div class="paragraph_text ">
                     <p>At QuillBot, we are committed to making writing painless, and that means building the most robust writing and research platform in the world. Backed by AI technology, our models are more dynamic than any other tools on the market,
@@ -456,16 +157,16 @@
 
             </div>
         </div>
-        <div class="con_table ">
-            <div class="container martop_table ">
+        <div class="w-75 m-auto">
+            <div class="">
                 <div class="paragraph_abletop ">
                     <p>Below are some other examples of grammar, spelling, and punctuation errors that QuillBot’s grammar check will identify and help you understand how to fix.</p>
 
 
                 </div>
             </div>
-            <div class="table_div ">
-                <table>
+            <div class="w-100 m-auto">
+                <table class="table table-bordered">
 
 
                     <tr>
@@ -584,9 +285,10 @@
                 </table>
             </div>
         </div>
+
         <!-- i am working ontable section work -->
 
-        <div class="ques_div ">
+        <div class="ques_div w-50 m-auto">
             <div class="text_que ">
                 <p>FAQs</p>
                 <p>Below are some of the most Frequently Asked Questions with regard to the Grammar Check tool.</p>
@@ -623,145 +325,152 @@
         </div>
 
         <!-- lest section footer started -->
-        <footer>
-            <ul>
-                <li>
-                    <b>Products</b>
 
-                </li>
-                <li>
-                    <a href="# ">Paraphraser</a>
+        <footer class="text-left ">
+            <!-- Section: Social media -->
+            <section class="row justify-content-lg-between py-5">
+                <div class="col-lg-7">
+                    <!-- Grid row -->
+                    <ul>
+                        <li>
+                            <b>Products</b>
 
-                </li>
+                        </li>
+                        <li>
+                            <a href="# ">Paraphraser</a>
 
-                <li>
-                    <a href="# ">Grammar Checker</a>
+                        </li>
 
-                </li>
-                <li>
-                    <a href="# ">Plagiarism Checker</a>
+                        <li>
+                            <a href="# ">Grammar Checker</a>
 
-                </li>
-                <li>
-                    <a href="# ">Co-Writer</a>
+                        </li>
+                        <li>
+                            <a href="# ">Plagiarism Checker</a>
 
-                </li>
-                <li>
-                    <a href="# ">Summarizer</a>
+                        </li>
+                        <li>
+                            <a href="# ">Co-Writer</a>
 
-                </li>
-                <li>
-                    <a href="# ">Citation Generator</a>
+                        </li>
+                        <li>
+                            <a href="# ">Summarizer</a>
 
-                </li>
-                <li>
-                    <a href="# ">Word Counter</a>
+                        </li>
+                        <li>
+                            <a href="# ">Citation Generator</a>
 
-                </li>
-            </ul>
-            <ul>
-                <li>
-                    <b>Services</b>
+                        </li>
+                        <li>
+                            <a href="# ">Word Counter</a>
 
-                </li>
-                <li>
-                    <a href="# ">Premium</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <b>Services</b>
 
-                </li>
-                <li>
-                    <a href="# ">Affiliate</a>
+                        </li>
+                        <li>
+                            <a href="# ">Premium</a>
 
-                </li>
+                        </li>
+                        <li>
+                            <a href="# ">Affiliate</a>
 
-
-            </ul>
-            <ul>
-                <li>
-                    <b>Resources</b>
-
-                </li>
-                <li>
-                    <a href="# ">Help Center</a>
-
-                </li>
-                <li>
-                    <a href="# ">Student Resources</a>
-
-                </li>
-                <li>
-                    <a href="# ">Paraphrasing Guide</a>
-
-                </li>
-                <li>
-                    <a href="# ">AI Writing Assistant</a>
-
-                </li>
+                        </li>
 
 
-            </ul>
-            <ul>
-                <li>
-                    <b>Company</b>
+                    </ul>
+                    <ul>
+                        <li>
+                            <b>Resources</b>
 
-                </li>
-                <li>
-                    <a href="# ">Team</a>
+                        </li>
+                        <li>
+                            <a href="# ">Help Center</a>
 
-                </li>
-                <li>
-                    <a href="# ">Blog</a>
+                        </li>
+                        <li>
+                            <a href="# ">Student Resources</a>
 
-                </li>
-                <li>
-                    <a href="# ">Courses</a>
+                        </li>
+                        <li>
+                            <a href="# ">Paraphrasing Guide</a>
 
-                </li>
-                <li>
-                    <a href="# ">Contact Us</a>
+                        </li>
+                        <li>
+                            <a href="# ">AI Writing Assistant</a>
 
-                </li>
-                <li>
-                    <a href="# ">Careers</a>
-
-                </li>
+                        </li>
 
 
-            </ul>
+                    </ul>
+                    <ul>
+                        <li>
+                            <b>Company</b>
 
-            <!-- ul icon section -->
-            <ul class="icon-section ">
-                <li>
+                        </li>
+                        <li>
+                            <a href="# ">Team</a>
+
+                        </li>
+                        <li>
+                            <a href="# ">Blog</a>
+
+                        </li>
+                        <li>
+                            <a href="# ">Courses</a>
+
+                        </li>
+                        <li>
+                            <a href="# ">Contact Us</a>
+
+                        </li>
+                        <li>
+                            <a href="# ">Careers</a>
+
+                        </li>
+
+
+                    </ul>
+                    <!-- Grid row -->
+                </div>
+                <div class="text-end col-lg-4">
                     <a href="# ">
                         <i style="font-size: 30px; border: 4px solid rgb(98, 97, 97);padding: 5px;border-radius: 15px; color: rgb(98, 97, 97); " class="fa-brands fa-linkedin-in "></i>
                     </a>
-                </li>
-                <li>
                     <a href="# ">
                         <i style="font-size: 30px; border: 4px solid rgb(98, 97, 97);padding: 5px 8px 5px 8px;border-radius: 15px; color: rgb(98, 97, 97); " class="fa-brands fa-facebook-f "></i>
                     </a>
-                </li>
-                <li>
                     <a href="# ">
                         <i style="font-size: 30px; border: 4px solid rgb(98, 97, 97);padding: 5px;border-radius: 15px; color: rgb(98, 97, 97); " class="fa-brands fa-instagram "></i>
                     </a>
-                </li>
-                <li>
                     <a href="# ">
                         <i style="font-size: 30px; border: 4px solid rgb(98, 97, 97);padding: 5px;border-radius: 15px; color: rgb(98, 97, 97); " class="fa-brands fa-twitter "></i>
                     </a>
-                </li>
-            </ul>
-            <p style="font-size:13px; margin:30px 0px 20px 0px; display:inline-block; ">© QuillBot (Course Hero), LLC. 2022
-            </p>
-            <p style="font-size:13px; margin:30px 0px 20px 50px; display:inline-block; ">Privacy Policy Terms of Service CCPA
-            </p>
+                </div>
 
+                <!-- Right -->
+            </section>
+            <!-- Section: Social media -->
+
+
+
+            <!-- Copyright -->
+
+            <!-- Copyright -->
         </footer>
-
+        <!-- Footer -->
 
     </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js " integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk " crossorigin="anonymous "></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js " integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy " crossorigin="anonymous "></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js " integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2 " crossorigin="anonymous "></script>
     <!-- ckedter link -->
-    <script src="edtor/ckeditor/ckeditor.js"></script>
+    <script src="edtor/ckeditor/ckeditor.js "></script>
     <script>
         CKEDITOR.replace('content');
     </script>

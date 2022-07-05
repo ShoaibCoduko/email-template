@@ -1,0 +1,217 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.main {
+    font-family: Open Sans, sans-serif!important;
+    background-image: url(image/back_ground.jpeg);
+}
+
+.paragraph_text p {
+    font-size: 16px;
+    line-height: 41px;
+    text-align: center;
+    font-weight: 400;
+    padding: 20px auto;
+}
+
+.paragraph_text .para_color {
+    font-style: italic;
+    font-weight: bold;
+    color: #4C9459;
+    padding-top: 8px;
+    padding-bottom: 8px
+}
+
+.headh1 h1 {
+    font-size: 30px;
+    margin: 30px 15px 15px;
+    line-height: 41px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.font_size {
+    font-size: 20px;
+    line-height: 41px;
+    text-align: left;
+    font-weight: 400;
+}
+
+.para_col {
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: left;
+    font-weight: 400;
+}
+
+
+/* container number2 */
+
+.para_col {
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: left;
+    font-weight: 400;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: normal;
+    padding-top: 40px;
+    margin-bottom: -5px;
+}
+
+
+/* container ni=umber 1 chanh ge mar gin and padd in d */
+
+.margtop {
+    padding: 100px 0px 0px;
+    margin: auto;
+}
+
+.margtop_2 {
+    margin-top: 23px;
+    padding-top: 20px;
+    margin-bottom: 45px;
+}
+
+.colm_1 .font_size {
+    font-size: 20px;
+    line-height: 41px;
+    text-align: left;
+    font-weight: 400;
+}
+
+.container_color {
+    background-color: #FFFBEFE6;
+}
+
+
+/* paragraphheading */
+
+.paraheading {
+    font-size: 30px;
+    margin: 30px 15px 15px;
+    line-height: 41px;
+    font-weight: 400;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.paraheading p {
+    font-size: 20px;
+}
+
+.tag_a {
+    text-align: center;
+}
+
+.tag_a a {
+    text-decoration: none;
+    color: #2971fe;
+    font-size: 16px;
+}
+
+
+/* working on container table project now */
+
+.con_table {
+    padding: 150px 0px;
+    background-image: url(image/background2.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+
+/* tablestylecolorstarted */
+
+.blue {
+    color: #6083c4;
+    font-weight: bold;
+}
+
+.red {
+    color: #FB3F4B;
+    font-weight: bold;
+}
+
+.green {
+    color: #499557;
+    font-weight: bold;
+}
+
+.bgblue {
+    background-color: #EDFAFF;
+}
+
+.bgred {
+    background-color: #ffeded;
+}
+
+.bggreen {
+    background-color: #ebffe3;
+}
+
+
+/* question writr progrem */
+
+.text_que {
+    padding-top: 60px;
+}
+
+.text_que p {
+    line-height: 41px;
+}
+
+.text_que .faq {
+    font-size: 20px;
+}
+
+.ul_que ul li a {
+    text-decoration: none;
+    color: #252525;
+}
+
+.ul_que ul li {
+    border-bottom: .3px solid rgb(186, 185, 185);
+    list-style-type: none;
+    padding: 25px 5px;
+}
+
+.ul_que ul li:hover {
+    background-color: rgb(254, 254, 254);
+}
+
+footer {
+    padding: 10px 150px 10px 150px;
+    background-color: rgba(187, 190, 191, 0.149);
+}
+
+footer ul {
+    display: inline-table;
+    padding: 0px 52px 0px 0px;
+}
+
+footer ul li {
+    list-style-type: none;
+    padding: 5px 5px;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: #252525;
+}
+
+footer .icon-section {
+    display: inline-flex;
+    justify-content: start;
+}
+
+.icon-section {
+    margin-top: 40px;
+}
